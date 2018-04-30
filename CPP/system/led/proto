@@ -1,0 +1,15 @@
+# version
+1
+
+# pipes basename
+ivi_pipe
+
+# commands
+# syntax = 'name | value_type | { argument_range } | cmd_type'
+
+set-led-state   | BOOL  | { on, off }           | SET
+get-led-state   | BOOL  | {}                    | GET
+set-led-color   | ENUM  | { red, green, blue }  | SET
+get-led-color   | ENUM  | {}                    | GET
+set-led-rate    | INT   | { 1..5 }              | SET
+get-led-rate    | INT   | {}                    | GET

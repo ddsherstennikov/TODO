@@ -1,0 +1,23 @@
+Goal:
+
+- Find several lengthy plaintext documents with which you can experiment. 
+- The project is to create an inverted index from the documents, using the algorithms described above. 
+- You will also need to create an interface for input of queries and an engine for processing them.
+
+Refs:
+
+(1) https://developers.google.com/edu/c++/cpp-in-depth
+(2) Project "Invert Hashtable"
+(3) python - basic/wordcount.py
+
+Plan:
+
+- The first thing to do is define a strategy for identifying terms in the documents. Make a list of all the stop-words you can think of, and write a function that reads through the words in the files, saves the terms, and eliminates the stop-words. You may have to add more stop-words to your list as you review the list of terms from an iteration.
+- Write CPPUnit test cases to test your function, and a makefile to bring everything together for your build. Check your files into CVS, particularly if you are working with partners. You may want to research how to open up your CVS instance to remote engineers.
+- Add processing to include location data, that is, which file and where in the file is a term located? You may want to figure out a calculation to define page number or paragraph number.
+- Write CPPUnit test cases to test this additional functionality.
+- Create an inverted index and store the location data in each term's record.
+- Write more test cases.
+- Design an interface to allow a user to enter a query.
+- Using the search algorithm described above, process the inverted index and return the location data to the user.
+- Be sure to include test cases for this final part as well.

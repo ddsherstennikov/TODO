@@ -1,0 +1,11 @@
+Goal:
+
+Write own Uber String class
+    - implement split with one symbol or many
+    - implement slicing like in python (think on syntax restrictions of cpp)
+
+Ref:
+
+(1) - Stroustrup
+(2) - cppreference interface of std::string
+(3) - Python str (unicode) features like slicing & splitting

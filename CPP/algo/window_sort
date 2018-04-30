@@ -1,0 +1,17 @@
+Goal:
+
+- sort with some method data that can't fit into memory
+
+Refs:
+(1) - use STL sorts (cppref.)
+(2) - look for algos in outer mem
+
+Plan:
+
+1) think: does it mean I should use disk space or be smart with my "Window" of data
+3) object scheme - pseudocode - interface - implement
+4) test - conclude - commit
+
+Hints:
+- dont't use to much data, just make a virtual restriction of window of, say, 1MB
+- for data, use some random-numbers generator to create text file of size >= 10MB
