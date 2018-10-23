@@ -1,0 +1,6 @@
+class Resource has internal lock
+class Container<Resource> has internal lock
+
+provide Accessor mechanics to Resource-s stored in container,
+where Acceccor is parametrized with lock (read_lock or write_lock)
+and provides handlers that encapsulate all locking and get/set underlying Resource-s.
