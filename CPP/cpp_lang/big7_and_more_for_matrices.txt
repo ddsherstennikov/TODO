@@ -1,0 +1,11 @@
+Implement matrix class with smart allocation and full set of neat operators.
+
+Matrices must hold some invariant (e.g. being square)
+
+BIG7 operations must be fine-grained
+
+Matrices should be thread-safe
+
+Matrices should provide exception guarantees
+
+Matrices should be subject to set of helper functions
